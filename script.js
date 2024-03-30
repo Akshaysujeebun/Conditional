@@ -16,3 +16,5 @@ if (newDog === "Chihuahua") {
 } else { 
     console.log("I dont care, I prefer cats");
 }
+
+//this is a test
