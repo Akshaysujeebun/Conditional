@@ -45,3 +45,21 @@ if (users.length == 0)
 }
    else 
 { console.log ("name_user1, name_user2 and 3 more are online");
+
+//Daily Challenge Not bad 
+
+let sentence = "The movie is not that bad, I like it";
+let wordNot = sentence.indexOf("not");
+let wordBad = sentence.indexOf("bad");
+
+if (wordNot !== -1 && wordBad !== -1 && wordNot < wordBad) {
+
+    let newsentence = sentence.slice(0, wordNot) + "good" + sentence.slice(wordBad + 3);
+    console.log(newsentence);
+} else {
+    
+    console.log(sentence);
+}    
+
+
+
